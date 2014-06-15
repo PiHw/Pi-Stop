@@ -5,15 +5,7 @@
 
 # Pi-Stop Documentation #
 
-The following material is available:
-
-[**Discover: The Pi-Stop**](Discover-PiStop.md): Learn what the Pi-Stop is, what is it for and how to use it.
-
-[**Setup: Scratch GPIO**](Setup-ScratchGPIO.md): Get up and running with Scratch GPIO ready to use with the Pi-Stop.
-
-[**Explore and Challenge Scratch GPIO: Pi-Stop First Steps**](ExploreScratchGPIO-PiStopFirstSteps.md): If you've not used Scratch before, this will provide a quick introduction to building your first Scratch GPIO program.
-
-[**Explore and Challenge Scratch GPIO: Pi-Stop Traffic Sequence**](ExploreScratchGPIO-PiStopTrafficSequence.md)
+More information is on the way!
 
 # Workshop Materials #
 The workshop materials will be split into four areas:
