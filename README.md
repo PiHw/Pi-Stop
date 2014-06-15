@@ -4,12 +4,6 @@
 <img src="markdown_source/img/LogoDesignNormal.png" width=400 />
 
 # Pi-Stop Documentation #
-<img src="markdown_source/img/pihwlogotm.png" width=180 /><img style="float:right" src="img/4tronix.jpg" width=250 />
-##[PiHardware.com](http://pihardware.com) and [4Tronix](http://4Tronix.com) present...##
-<p>
-<img src="markdown_source/img/LogoDesignNormal.png" width=400 />
-
-# Pi-Stop Documentation #
 
 The following material is available:
 
