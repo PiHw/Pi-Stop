@@ -48,4 +48,4 @@ Get set...
 # Where to get your Pi-Stops #
 
 The Pi-Stop will be available from [4Tronix](http://4Tronix.com)
-<img src="markdown_source/markdown_source/img/4tronix.jpg" width=200 />
+<img src="markdown_source/img/4tronix.jpg" width=200 />
