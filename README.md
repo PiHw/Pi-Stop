@@ -1,5 +1,5 @@
 <img src="img/pihwlogotm.png" width=180 />
-##[PiHardware.com](http://pihardware.com) present...##
+##[PiHardware.com](http://pihardware.com) presents...##
 <p>
 <img src="img/LogoDesignNormal.png" width=400 />
 
