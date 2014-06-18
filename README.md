@@ -74,7 +74,7 @@ Supporting worksheets:
 ##Example Workshop##
 The following materials were used at the Digimakers Bristol event held the @Bristol Science Centre (14th June 2014) - ready to print PDF format.
 
-Suitable for age 7 and upwards, runs for 1 to 2 hours depending on ability/creativity.
+Suitable for age 6 and upwards (probably less with extra guidance), runs for 1 to 2 hours depending on ability/creativity.
 
 1. [**Setup: Scratch GPIO (workshop version)**](pdf/WS-Setup-ScratchGPIO.pdf) - Explains how to setup Scratch GPIO
 
