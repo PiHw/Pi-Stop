@@ -6,7 +6,7 @@
 ##Introducing the Pi-Stop##
 The Pi-Stop is a low cost hardware module designed to allow Raspberry Pi users to take their first steps into interfacing with the real world.
 
-Designed with the learning in mind, younger people will recognise and identify its familiar elements encouraging them to use them along-side their own projects.
+Designed with the learning in mind, everyone will recognise and identify its familiar elements encouraging their use along-side their own projects.
 
 <img style="float:left" src="markdown_source/img/logodesignvertop.png" width=110/>
 
@@ -18,17 +18,24 @@ By plugging the Pi-Stop directly on to the Raspberry Pi GPIO header, no extra ca
 <img src="markdown_source/img/quadpistops.png" width=350/>
 
 When used with optional stands, they can be used away from the GPIO header and even daisy chained to make up full traffic light sets.
- 
+
+<img src="markdown_source/img/Pi-StopStands.jpg" width=250/>
+
+*For more information about the many ways the Pi-Stop is fitted see the Pi-Stop documentation below.*
 
 
 ###Prepare to go!###
 The Pi-Stop provides a simple stepping stone, between pure screen based programming and using physical hardware to interact with the real world.  Components like the Pi-Stop will provide a flexible and non-restrictive way to build understanding through experimenting.
 
+<img src="markdown_source/img/Pi-StopQuadFun.jpg"  width=350/>
+
 Since it is only a step away from a bag of components, it also allows the programming of hardware to be introduced, and the electronics involved can be introduced separately, if desired.  Allowing the pupils to discover they can control real things, and then again to discover they can also build their own circuits and control them in exactly the same way.
 
-Often, pupils will be faced with a magic board which they plug in and tell it to do stuff, it isn't always clear to them why or how it does it, by providing something which they can remove and replace with something (apparently) completely different (- wires, breadboards and LEDs) they will be able to understand the link.
+Often, people are faced with a magic board which they plug in and tell it to do stuff, however it isn't always clear to them why or how it does it.  By providing something which they can remove and replace with something (apparently) completely different (- wires, breadboards and LEDs) they will be able to understand the link.
 
-By keeping the hardware very simple, it allows better understanding of what is happening, and allows the pupils space to come up with their own projects and apply the concepts with their own ideas in mind.
+<img src="markdown_source/img/Pi-StopDaisychain.jpg"  width=350/>
+
+By keeping the hardware very simple, it allows better understanding of what is happening, and allows space to come up with your own projects and apply the concepts with your own ideas in mind.
 
 ###GO Full throttle###
 The documentation and guides are openly available for the Pi-Stop for educational use.  There will be guides, tutorials and workshop material available all of which can be taken *as is* [available as PDF format] or adapted to your own needs [available in markdown format].
@@ -74,6 +81,8 @@ Supporting worksheets:
 ##Example Workshop##
 The following materials were used at the Digimakers Bristol event held the @Bristol Science Centre (14th June 2014) - ready to print PDF format.
 
+<img src="markdown_source/img/Pi-StopDocs.jpg"  width=350/>
+
 Suitable for age 6 and upwards (probably less with extra guidance), runs for 1 to 2 hours depending on ability/creativity.
 
 1. [**Setup: Scratch GPIO (workshop version)**](pdf/WS-Setup-ScratchGPIO.pdf) - Explains how to setup Scratch GPIO
@@ -102,9 +111,9 @@ Get set...
 
 # Where to get your Pi-Stop #
 
-The Pi-Stop was designed in partnership with [4Tronix.com](http://4Tronix.com).
+The Pi-Stop was designed in partnership between [4Tronix.com](http://4Tronix.com) and [PiHardware.com](http://pihardware.com).
 <img src="markdown_source/img/4tronix.jpg" width=200 />
-They are available from the [4Tronix.com](http://4Tronix.com) shop.
+The Pi-Stop is available from the [4Tronix.com](http://4Tronix.com) shop.
 
 
 --------------------------
