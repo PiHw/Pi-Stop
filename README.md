@@ -111,9 +111,9 @@ Get set...
 
 # Where to get your Pi-Stop #
 
-The Pi-Stop was designed in partnership between [4Tronix.com](http://4Tronix.com) and [PiHardware.com](http://pihardware.com).
+The Pi-Stop was designed in partnership between [4Tronix.co.uk](http://4Tronix.co.uk) and [PiHardware.com](http://pihardware.com).
 <img src="markdown_source/img/4tronix.jpg" width=200 />
-The Pi-Stop is available from the [4Tronix.com](http://4Tronix.com) shop.
+The Pi-Stop is available from the [4Tronix.co.uk](http://4Tronix.co.uk) shop.
 
 
 --------------------------

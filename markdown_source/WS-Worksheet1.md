@@ -147,7 +147,7 @@ Challenge your memory and get the highest score!
 <img src="img/LogoDesignNormal.png" height=100/>
 I hope you enjoyed it.
 
-Remember the **Pi-Stop** will be available to buy from [www.4tronix.com](http://www.4tronix.com), and additional material and guides will be available from my website [www.PiHardware.com ](http://www.PiHardware.com )
+Remember the **Pi-Stop** will be available to buy from [www.4tronix.co.uk](http://www.4tronix.co.uk), and additional material and guides will be available from my website [www.PiHardware.com ](http://www.PiHardware.com )
 
 
 > To reserve your own Pi-Stops, to enquire about **classroom/workshop packs**, or for Raspberry Pi help/advice:

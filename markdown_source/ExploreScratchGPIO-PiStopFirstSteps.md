@@ -4,7 +4,7 @@
 <img src="img/Y.png" width=1000 height=50 />
 
 #Explore and Challenge:#
-##The Pi-Stop Traffic Light Sequence##
+##The Pi-Stop First Steps##
 <img src="img/LogoDesignNormal.png" height=100/>
 > <img style="float:left" src="img/note.png" height=40/>
 > **SEE ALSO:**
