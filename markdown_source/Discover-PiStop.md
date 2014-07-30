@@ -10,7 +10,7 @@
 <img style="float:right" src="img/pi-stopsmbl.png" width=100/>
 The Raspberry Pi has a pin connector (P1) which includes 17 general purpose input output pins, which provide the ability to digital control of hardware or sensing of digital signals.  The pin header also contains several power (5V & 3.3V) and ground pins, as shown below.
 
-<img src="img/rpigpiobasicblack.png" width=200 />
+<img src="img/RPiGPIOBasicBlack.png" width=200 />
 
 
 > <img style="float:left" src="img/note.png" height=40/>
@@ -33,7 +33,7 @@ The Pi-Stop includes three small resistors which will limit the current through 
 
 <img src="img/TrafficLightsPiStop.png" height=400>
 
-><img style="float:left" src="img/idea.png" height=40/>
+><img style="float:left" src="img/Idea.png" height=40/>
 > **TIP:** 
 >Any circuit you connect to the Raspberry Pi should be designed to function using 3.3V logic and use low current signals.  If you wish to use more powerful hardware such as motors or 5V logic levels you will need additional circuits to drive them safely.
    
@@ -41,9 +41,9 @@ The Pi-Stop includes three small resistors which will limit the current through 
 ##Fitting the Pi-Stop##
 We have selected **four** standard locations for the Pi-Stop which are easy to locate and allow the unit to face outwards from the P1 header.  This also allows you to control up to four Pi-Stops at the same time!
 
-<img src="img/gpioconnections01.png" height=200 />
+<img src="img/GPIOConnections01.png" height=200 />
 
-<img  src="img/gpioconnections02.png" height=200 />
+<img  src="img/GPIOConnections02.png" height=200 />
 
 
 ><img src="img/warn.png" height=40/>
