@@ -33,7 +33,7 @@ The Pi-Stop includes three small resistors which will limit the current through 
 
 <img src="img/TrafficLightsPiStop.png" height=400>
 
-><img style="float:left" src="img/Idea.png" height=40/>
+><img style="float:left" src="img/idea.png" height=40/>
 > **TIP:** 
 >Any circuit you connect to the Raspberry Pi should be designed to function using 3.3V logic and use low current signals.  If you wish to use more powerful hardware such as motors or 5V logic levels you will need additional circuits to drive them safely.
    
