@@ -126,4 +126,4 @@ Remember to save your completed work by selecting **File** and **Save As...** fr
 
 *You are now ready to move onto the next guide:*
 
-*[**Explore and Challenge Scratch GPIO: Pi-Stop Traffic Sequence**](ExploreScratchGPIO-PiStopTrafficSequence.md).*
+[**Explore and Challenge Scratch GPIO: Pi-Stop Traffic Sequence**](ExploreScratchGPIO-PiStopTrafficSequence.md).

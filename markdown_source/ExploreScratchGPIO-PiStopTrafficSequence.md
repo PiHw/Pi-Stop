@@ -161,7 +161,7 @@ Now you have your very own traffic light you can use in your own projects!
 
 *Below are some ideas, or you can move onto the next guide:*
 
-*[**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopReactionGame.md).*
+[**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopReactionGame.md).
 
 
 ###Start a race###
@@ -199,4 +199,4 @@ Use the Pi-Stop to start your **Scalextric** (TM) or **Hot Wheels** (TM) races, 
 
 *The next guide is:*
 
-*[**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopReactionGame.md).*
+[**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopReactionGame.md).

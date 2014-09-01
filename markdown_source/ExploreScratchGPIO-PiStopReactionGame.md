@@ -62,8 +62,8 @@ First we will need some *"variables"* to hold our information:
 
 We will also setup some **broadcast** group blocks as before, to control our lights.  We just need an **ALLON** and an **ALLOFF** **broadcast** group block to switch ON or OFF the lights.
 
-<img src="img/05-ReactionA.png">
-<img src="img/05-ReactionB.png">
+<img src="img/05-reactionA.png">
+<img src="img/05-reactionB.png">
 
 
 
@@ -71,9 +71,9 @@ We will also setup some **broadcast** group blocks as before, to control our lig
 The game should wait for the use to press a key (for example the UP ARROW key).
 
 #####We do this with:#####
-<img src="img/05-Reaction01.png">
-<img src="img/05-Reaction02.png">
-<img src="img/05-Reaction03.png">
+<img src="img/05-reaction01.png">
+<img src="img/05-reaction02.png">
+<img src="img/05-reaction03.png">
 
 > <img style="float:left" src="img/note.png" height=40/>
 > **NOTE:** **GO** will be a **broadcast** group block which runs the game (see the next section).
@@ -97,8 +97,8 @@ This is done with the following steps:
 - Measure the time when the player presses the SPACE key
 
 #####We do this with:#####
-<img src="img/05-Reaction04.png">
-<img src="img/05-Reaction05.png">
+<img src="img/05-reaction04.png">
+<img src="img/05-reaction05.png">
 
 The key part here is the **pick random *1* to *5*** to provide a unknown **wait** time before we switch OFF the lights.
 
@@ -123,8 +123,8 @@ If the *"PlayerTime"* is equal to its initial value than the player didn't press
 If the *"PlayerTime"* is longer than the *"GameTime"*, they have pressed the SPACE key after the lights switched OFF.  Their score will be the difference between the  *"GameTime"* and the *"PlayerTime"*, their ***"Reaction Time"***!
 
 #####We do this with:#####
-<img src="img/05-Reaction06.png">
-<img src="img/05-Reaction07.png">
+<img src="img/05-reaction06.png">
+<img src="img/05-reaction07.png">
 
 We add another **broadcast  and wait** block (to run our new **"SCORE"** block) to the main **"START"** broadcast group block.
 
@@ -133,15 +133,15 @@ We add another **broadcast  and wait** block (to run our new **"SCORE"** block) 
 Next we work out if the *"Reaction Time"** faster than the *"Fastest Score"*, if it is we can set a new *"Fastest Score"*.
 
 #####We do this with:#####
-<img src="img/05-Reaction08.png">
-<img src="img/05-Reaction09.png">
+<img src="img/05-reaction08.png">
+<img src="img/05-reaction09.png">
 
 ###5. Next round!###
 
 Finally, we tell the player ***"Press UP arrow to START"*** and restart (without resetting the *"Fastest Score"*).
 
 #####We do this with:#####
-<img src="img/05-Reaction10.png">
+<img src="img/05-reaction10.png">
 
 > <img style="float:left" src="img/note.png" height=40/>
 > **NOTE:** This block will restart as soon as the player presses the UP arrow.

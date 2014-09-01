@@ -79,7 +79,7 @@ Otherwise, restart the desktop by logging out and back in again.
 
 When the desktop has reloaded, you will discover two new icons:
 
-<img src="img/scratchgpioicon.png">
+<img src="img/ScratchGPIOIcon.png">
 
 **Scratch GPIO 5** is the standard version, while **Scratch GPIO 5 plus** provides additional support for several add-on boards.
 
