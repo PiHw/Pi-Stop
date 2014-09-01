@@ -122,7 +122,7 @@ You finished program should look something like the following.
 <p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop Simon Memory Game"**.
 <p>
-<img src="img/Space.png" height=10/>
+<img src="img/space.png" height=10/>
 <p>
 ***Don't forget to write down your best score!***
 

@@ -1,7 +1,7 @@
 <img src="img/pihwlogotm.png" width=225 />
 ----------
 <p>
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 ##NAME:##
 -----------------
@@ -13,16 +13,16 @@ Explains how to setup Scratch GPIO.
 *You must perform this step in order to use the **Pi-Stop** with Scratch.*
 <img style="float:left" src="img/CheckClear.png" height=50/> **I have installed Scratch GPIO!**
 <p>
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/> **I have powered down the Raspberry Pi and fitted the Pi-Stop in Location A**
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 <img src="img/PiStopLocationA.png" height=300 />
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/> **I have tested Scratch GPIO with the Pi-Stop and it works!** 
 <p>
-<img src="img/Space.png" height=10/>
+<img src="img/space.png" height=10/>
 <p>
 ##[**Explore and Challenge Scratch GPIO: Pi-Stop First Steps**](ExploreScratchGPIO-PiStopFirstSteps.md)##
 <img src="img/Y.png" width=1000 height=50 />
@@ -31,11 +31,11 @@ Introduces how to use Scratch and using Scratch GPIO.
 *If you are already familiar with Scratch you can skip this.*
 <img style="float:left" src="img/CheckClear.png" height=50/> **I now know the different parts of Scatch**
 <p>
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/> **Scratch GPIO with a Flashing RED Light Completed!**
 <p>
-<img src="img/Space.png" height=50/>
+<img src="img/space.png" height=50/>
 <p>
 ##[**Explore and Challenge Scratch GPIO: Pi-Stop Traffic Sequence**](ExploreScratchGPIO-PiStopTrafficSequence.md)##
 <img src="img/G.png" width=1000 height=50 />
@@ -66,7 +66,7 @@ To stop the lights changing instantly, we need to wait before we change them aga
 <img style="float:left" src="img/pi-stoptopoff.png" height=180/>
 <img src="img/broadcastblock.png" height=140/>
 <p>
-<img src="img/Space.png" height=50/>
+<img src="img/space.png" height=50/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**Traffic Light Sequence STOP to GO**
 
@@ -93,32 +93,32 @@ Again, to stop the lights changing instantly, we need to wait.
 <img src="img/broadcastblock.png" height=140/>
 
 <p>
-<img src="img/Space.png" height=50/>
+<img src="img/space.png" height=50/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**Traffic Light Sequence GO to STOP**
 <p>
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 --------
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**I've created the Pi-Stop STOP and GO sequences**
 <p>
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**I've created the Pi-Stop the full Traffic Light Sequence**
 <p>
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**Extended Task: Created a racing start light control**
 <p>
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/>**Extended Task: Controlled two Pi-Stops at the same time!**
 <p>
-<img src="img/Space.png" height=60/>
+<img src="img/space.png" height=60/>
 ##[**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopSimonGame.md)##
 <img src="img/G.png" width=1000 height=50 />
 How fast are your reflexes?  Test your reaction time with the Pi-Stop Reaction game.
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 
 <img style="float:left" src="img/CheckClear.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop Reaction Game"**.
@@ -126,14 +126,14 @@ How fast are your reflexes?  Test your reaction time with the Pi-Stop Reaction g
 ***Don't forget to write down your best score!***
 <img src="img/CheckBlank.png" height=100 width=140/>
 <p>
-<img src="img/Space.png" height=10/>
+<img src="img/space.png" height=10/>
 ##[**Explore and Challenge Scratch GPIO: Pi-Stop Simon Memory Game**](ExploreScratchGPIO-PiStopSimonGame.md)##
 <img src="img/G.png" width=1000 height=50 />
 Challenge your memory and get the highest score!
 
 <img style="float:left" src="img/CheckClear.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"The first part of the Pi-Stop Simon Memory Game works!"**.
 <p>
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop Simon Memory Game"**.
 
@@ -158,7 +158,7 @@ My ***Raspberry Pi Python Cookbook for Python Programmers*** is available to buy
 
 **[http://goo.gl/dmVtsc](http://goo.gl/dmVtsc)**
 
-<img src="img/Space.png" height=20/><p>
+<img src="img/space.png" height=20/><p>
 <img src="img/pihwlogotm.png" width=80 /><img style="float:right" src="img/4tronix.jpg" width=100 />
 
 

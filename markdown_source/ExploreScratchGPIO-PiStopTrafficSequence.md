@@ -105,11 +105,11 @@ Start the group with a **when I receive** block called **STOP**:
 Add our first light change:
 <img src="img/broadcastblock.png" height=100/>
 <p>
-<img src="img/Space.png" height=0/>
+<img src="img/space.png" height=0/>
 Add a wait block (so the lights do not change instantly):
 <img src="img/wait1sec.png" height=40/>
 <p>
-<img src="img/Space.png" height=0/>
+<img src="img/space.png" height=0/>
 Add our second light change:
 <img src="img/broadcastblock.png" height=100/>
 ####Broadcast GO Block####
@@ -117,10 +117,10 @@ Simply do the same with the other light changes, but call this **when I receive*
 <img src="img/broadcastGO.png" height=60/>
 
 ***Excellent!*** *Now you can test these blocks by clicking on them directly and see if we have our correct traffic light sequences!*
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop STOP and GO sequences"**
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 ##The Final Program - Changing Lights##
 At the moment our program will not do anything unless we click on it.
@@ -138,10 +138,10 @@ Putting the blocks together we end up with:
 <img src="img/04-trafficloop.png" height=180/>
 
 When you run the program (by clicking on the **Green Flag**) you will see each part is highlighted with a white outline while it runs through the **forever** loop and runs each of the **broadcast** group blocks **GO** and **STOP**.
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop the full Traffic Light Sequence"**
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 <p>
 Remember to save your completed work by selecting **File** and **Save As...** from the menu.
 
@@ -188,7 +188,7 @@ Use the Pi-Stop to start your **Scalextric** (TM) or **Hot Wheels** (TM) races, 
 <img style="float:left" src="img/quest.png" height=50/>**QUESTION:** Can you extend the traffic light sequence to use a second **Pi-Stop** fitted in **Location B** so you can control traffic at a junction?
 <img src="img/PiStopLocationB.png" height=300/>
 
-<img src="img/Space.png" height=30/>
+<img src="img/space.png" height=30/>
 *If you want to try this, please ask for an extra Pi-Stop to use in your project.*
 
 <img src="img/junction.png" height=300/>

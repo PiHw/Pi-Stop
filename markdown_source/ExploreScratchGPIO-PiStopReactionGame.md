@@ -153,7 +153,7 @@ By breaking our game into smaller tasks, it was a lot easier to make!
 *Amazing, you have created your first game in Scratch!*
 <p>
 <img src="img/ReactionTimeScript.png">
-<img src="img/Space.png" height=20/>
+<img src="img/space.png" height=20/>
 <p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop Reaction Game"**.
 
