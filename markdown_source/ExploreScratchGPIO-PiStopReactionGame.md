@@ -166,4 +166,4 @@ Try making this game more difficult by randomly picking a different LED each tim
 ------------------
 *You are now ready to move onto the next guide:*
 
-*[**Explore and Challenge Scratch GPIO: Pi-Stop Simon Memory Game**](ExploreScratchGPIO-PiStopMemoryGame.md).*
+[**Explore and Challenge Scratch GPIO: Pi-Stop Simon Memory Game**](ExploreScratchGPIO-PiStopMemoryGame.md).
