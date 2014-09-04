@@ -13,6 +13,25 @@ Once established, we can switch between setups by using a Python Script to gener
 
 ## This is just an idea at the moment, however this may be a good way to create common worksheets which are adaptable for everyone! ## 
 -->
+#Tesing with defines#
+
+<!--#define WANT_MODEL_PLUS-->
+<!--#define WANT_MODEL_ORG-->
+
+<!--#ifdef WANT_MODEL_PLUS-->
+##GPIO Connections for Model A+ and B+##
+<img style="float:left" src="img/GPIOConnections01Plus.png" height=200 />
+<img style="float:right" src="img/GPIOConnections02Plus.png" height=200 />
+<!--#endif-->
+<!--#ifdef WANT_MODEL_ORG-->
+##GPIO Connections for Model A and B##
+<img style="float:left" src="img/GPIOConnections01.png" height=200 />
+<img style="float:right" src="img/GPIOConnections02.png" height=200 />
+<!--#endif-->
+
+
+
+#Testing with webtags
 <head>
 <style>
 h1 {color: sienna;}
