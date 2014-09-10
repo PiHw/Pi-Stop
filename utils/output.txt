@@ -15,19 +15,19 @@ Once established, we can switch between setups by using a Python Script to gener
 -->
 #Tesing with defines#
 
-<!---#define WANT_MODEL_PLUS--->
+#define WANT_MODEL_PLUS
 <!--Commented out define WANT_MODEL_ORG-->
 
-<!---#ifdef WANT_MODEL_PLUS--->
+#ifdef WANT_MODEL_PLUS
 ##GPIO Connections for Model A+ and B+##
 <img src="img/GPIOConnections01Plus.png" height=200 />
 <img src="img/GPIOConnections02Plus.png" height=200 />
-<!---#endif--->
+#endif
 
 
 
-<!---#ifdef WANT_MODEL_ORG--->
+#ifdef WANT_MODEL_ORG
 ##GPIO Connections for Model A and B##
 <img src="img/GPIOConnections01.png" height=200 />
 <img src="img/GPIOConnections02.png" height=200 />
-<!---#endif--->
+#endif
