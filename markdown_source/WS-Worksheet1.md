@@ -1,3 +1,31 @@
+<!-- How to use comments in these files -->
+<!-- ---------------------------------- -->
+<!--
+
+Comments have been put in this file so that they can be customised for a range of workshops and uses.
+
+[How to customise the Markdown documents](CustomMarkdown.md)
+
+For normal html comments use 2 "-" i.e.:
+Use "<!-- This comment" with "--"">" to end it.
+
+For compiler directive commands use 3 "-"
+for the comments i.e.:
+1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+-->
+
+<!-- -----------------------------------------------------
+-->
+<!-- Enable sections for the new model plus (Post-July 2014) -->
+<!---#define WANT_MODEL_PLUS--->
+<!-- Enable sections for the older model (Pre-July 2014) -->
+<!---#define WANT_MODEL_ORG--->
+<!-- -----------------------------------------------------
+-->
+
+
 <img src="img/pihwlogotm.png" width=225 />
 ----------
 <p>
@@ -18,7 +46,14 @@ Explains how to setup Scratch GPIO.
 <img style="float:left" src="img/CheckClear.png" height=50/> **I have powered down the Raspberry Pi and fitted the Pi-Stop in Location A**
 <img src="img/space.png" height=20/>
 <p>
+<!---#ifdef WANT_MODEL_PLUS--->
+**Location A for Model A+ or B+ (purchased after July 2014)**
+<img src="img/PiStopLocationPlusA.png" height=300 />
+<!---#endif--->
+<!---#ifdef WANT_MODEL_ORG--->
+**Location A for Model A or B (purchased before July 2014)**
 <img src="img/PiStopLocationA.png" height=300 />
+<!---#endif--->
 <p>
 <img style="float:left" src="img/CheckClear.png" height=50/> **I have tested Scratch GPIO with the Pi-Stop and it works!** 
 <p>

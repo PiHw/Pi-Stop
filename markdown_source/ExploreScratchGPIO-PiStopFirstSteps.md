@@ -1,3 +1,31 @@
+<!-- How to use comments in these files -->
+<!-- ---------------------------------- -->
+<!--
+
+Comments have been put in this file so that they can be customised for a range of workshops and uses.
+
+[How to customise the Markdown documents](CustomMarkdown.md)
+
+For normal html comments use 2 "-" i.e.:
+Use "<!-- This comment" with "--"">" to end it.
+
+For compiler directive commands use 3 "-"
+for the comments i.e.:
+1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+-->
+
+<!-- -----------------------------------------------------
+-->
+<!-- Enable sections for the new model plus (Post-July 2014) -->
+<!---#define WANT_MODEL_PLUS--->
+<!-- Enable sections for the older model (Pre-July 2014) -->
+<!---#define WANT_MODEL_ORG--->
+<!-- -----------------------------------------------------
+-->
+
+
 <img src="img/pihwlogotm.png" width=180 />
 
 ----------
@@ -17,8 +45,16 @@ We shall take our first steps using Scratch GPIO to control the Pi-Stop's LEDs.
 
 ###Getting Started###
 The Pi-Stop should be connected to the Raspberry Pi in **Location A** (LEDs facing outwards), as follows:
-<img src="img/PiStopLocationA.png" height=300/>
+<!---#ifdef WANT_MODEL_PLUS--->
+**Location A for Model A+ or B+ (purchased after July 2014)**
+<img src="img/PiStopLocationPlusA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
+<!---#ifdef WANT_MODEL_ORG--->
+**Location A for Model A or B (purchased before July 2014)**
+<img src="img/PiStopLocationA.png" height=300 />
+<img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
 
 ###Run Scratch GPIO###
 If you are still in the Raspberry Pi terminal, start the desktop environment using:

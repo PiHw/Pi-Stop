@@ -1,3 +1,31 @@
+<!-- How to use comments in these files -->
+<!-- ---------------------------------- -->
+<!--
+
+Comments have been put in this file so that they can be customised for a range of workshops and uses.
+
+[How to customise the Markdown documents](CustomMarkdown.md)
+
+For normal html comments use 2 "-" i.e.:
+Use "<!-- This comment" with "--"">" to end it.
+
+For compiler directive commands use 3 "-"
+for the comments i.e.:
+1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+-->
+
+<!-- -----------------------------------------------------
+-->
+<!-- Enable sections for the new model plus (Post-July 2014) -->
+<!---#define WANT_MODEL_PLUS--->
+<!-- Enable sections for the older model (Pre-July 2014) -->
+<!---#define WANT_MODEL_ORG--->
+<!-- -----------------------------------------------------
+-->
+
+
 <img src="img/pihwlogotm.png" width=180 />
 
 ----------
@@ -26,7 +54,14 @@ I wonder if we can prove if Miller's **"Magic Number Seven"** is true or not?  W
 
 ###Getting Started###
 As in previous guides, the Pi-Stop should be connected to the Raspberry Pi in **Location A**, as follows:
-<img src="img/PiStopLocationA.png" height=240/>
+<!---#ifdef WANT_MODEL_PLUS--->
+**Location A for Model A+ or B+ (purchased after July 2014)**
+<img src="img/PiStopLocationPlusA.png" height=300 />
+<!---#endif--->
+<!---#ifdef WANT_MODEL_ORG--->
+**Location A for Model A or B (purchased before July 2014)**
+<img src="img/PiStopLocationA.png" height=300 />
+<!---#endif--->
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
 Once you have started the Raspberry Pi desktop, open Scratch using the Scratch GPIO icon:
