@@ -13,9 +13,19 @@ Once established, we can switch between setups by using a Python Script to gener
 
 ## This is just an idea at the moment, however this may be a good way to create common worksheets which are adaptable for everyone! ## 
 -->
-#Tesing with defines#
+#Testing with defines#
 
 <!--Commented out define WANT_MODEL_ORG-->
+
+#Testing with WANT_ONLINE_IMG_PATH#
+
+
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/pihwlogotm.png" height=200 />
+
+#Testing with ONLINE_IMG_PATH#
+
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/pihwlogotm.png" height=200 />
+
 
 ##GPIO Connections for Model A+ and B+##
 <img src="img/GPIOConnections01Plus.png" height=200 />
