@@ -1,3 +1,32 @@
+<!-- How to use comments in these files -->
+<!-- ---------------------------------- -->
+<!--
+
+Comments have been put in this file so that they can be customised for a range of workshops and uses.
+
+[How to customise the Markdown documents](CustomMarkdown.md)
+
+For normal html comments use 2 "-" i.e.:
+Use "<!-- This comment" with "--"">" to end it.
+
+For compiler directive commands use 3 "-"
+for the comments i.e.:
+1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+-->
+
+<!-- -----------------------------------------------------
+-->
+<!-- Enable sections for the new model plus (Post-July 2014) -->
+<!---#define WANT_MODEL_PLUS--->
+<!-- Enable sections for the older model (Pre-July 2014) -->
+<!---#define WANT_MODEL_ORG--->
+<!-- -----------------------------------------------------
+-->
+
+
+
 <img src="img/pihwlogotm.png" width=225 /><img style="float:right" src="img/4tronix.jpg" width=300 />
 ----------
 #Setup: Scratch GPIO#
@@ -92,8 +121,16 @@ When the desktop has reloaded, you will discover two new icons:
 
 ###Performing our first test with Pi-Stop###
 The Pi-Stop should be connected to your Raspberry Pi GPIO header P1 using **Location A**, as follows:
+<!---#ifdef WANT_MODEL_PLUS--->
+**Location A for Model A+ or B+ (purchased after July 2014)**
+<img src="img/PiStopLocationPlusA.png" height=300 />
+<img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
+<!---#ifdef WANT_MODEL_ORG--->
+**Location A for Model A or B (purchased before July 2014)**
 <img src="img/PiStopLocationA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
 
 > <img style="float:left" src="img/note.png" height=40/>
 > **SEE ALSO:**

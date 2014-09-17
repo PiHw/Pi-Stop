@@ -1,3 +1,31 @@
+<!-- How to use comments in these files -->
+<!-- ---------------------------------- -->
+<!--
+
+Comments have been put in this file so that they can be customised for a range of workshops and uses.
+
+[How to customise the Markdown documents](CustomMarkdown.md)
+
+For normal html comments use 2 "-" i.e.:
+Use "<!-- This comment" with "--"">" to end it.
+
+For compiler directive commands use 3 "-"
+for the comments i.e.:
+1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+-->
+
+<!-- -----------------------------------------------------
+-->
+<!-- Enable sections for the new model plus (Post-July 2014) -->
+<!---#define WANT_MODEL_PLUS--->
+<!-- Enable sections for the older model (Pre-July 2014) -->
+<!---#define WANT_MODEL_ORG--->
+<!-- -----------------------------------------------------
+-->
+
+
 <img src="img/pihwlogotm.png" width=180 />
 
 ----------
@@ -120,8 +148,16 @@ Scratch GPIO is a slightly modified version of standard Scratch which has an add
 First before we plug in our hardware, **shut-down** the Raspberry Pi if you haven't done so already (see above).
 
 The **Pi-Stop** should be connected to your Raspberry Pi GPIO header P1 using **Location A** (LEDs facing outwards), as follows:
+<!---#ifdef WANT_MODEL_PLUS--->
+**Location A for Model A+ or B+ (purchased after July 2014)**
+<img src="img/PiStopLocationPlusA.png" height=300 />
+<img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
+<!---#ifdef WANT_MODEL_ORG--->
+**Location A for Model A or B (purchased before July 2014)**
 <img src="img/PiStopLocationA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
+<!---#endif--->
 <p>
 <img src="img/space.png" height=30/>
 > <img style="float:left" src="img/note.png" height=40/>
