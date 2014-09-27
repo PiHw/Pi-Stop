@@ -26,7 +26,7 @@ for the comments i.e.:
 -->
 
 
-<img src="img/pihwlogotm.png" width=180 />
+<img src="../markdown_source/img/pihwlogotm.png" width=180 />
 
 ----------
 <img src="img/G.png" width=1000 height=50 />
