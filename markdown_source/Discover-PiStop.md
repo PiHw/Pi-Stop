@@ -11,9 +11,9 @@ Use "<!-- This comment" with "--"">" to end it.
 
 For compiler directive commands use 3 "-"
 for the comments i.e.:
-1. Use "<!---#define WANT_SOMETHING" with "---"">" to enable a particular section.
-2. Use "<!---#ifdef WANT_SOMETHING" with "---"">" to create an optional section.
-3. Ensure you use "<---#end" with "---"">" to indicate the end of the optional section.
+1. Use "<!"---#""define WANT_SOMETHING" with "---"">" to enable a particular section.
+2. Use "<!"---#""ifdef WANT_SOMETHING" with "---"">" to create an optional section.
+3. Ensure you use "<!"---#""end" with "---"">" to indicate the end of the optional section.
 -->
 
 <!-- -----------------------------------------------------

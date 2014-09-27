@@ -24,8 +24,19 @@ Once established, we can switch between setups by using a Python Script to gener
 
 #Testing with ONLINE_IMG_PATH#
 
-<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/pihwlogotm.png" height=200 />
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/PiStopLocationsPlus.png" height=200 />
 
+
+#Testing with IMG_PATH#
+
+
+
+
+
+
+
+
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/PiStopLocationsPlus.png" height=200 />
 
 ##GPIO Connections for Model A+ and B+##
 <img src="img/GPIOConnections01Plus.png" height=200 />
