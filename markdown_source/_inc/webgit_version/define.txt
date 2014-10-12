@@ -1,0 +1,7 @@
+#define WANT_MODEL_PLUS
+#define WANT_MODEL_ORG
+
+#define ALT_LINK
+#define FILE_SRC https://github.com/PiHw/Pi-Stop/blob/master/markdown_source
+#define FILE_SRC_EXT md
+#define IMG_SRC https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img

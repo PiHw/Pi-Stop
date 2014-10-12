@@ -1,0 +1,4 @@
+<!-- File generated from pihw.com (_inc\\standard\\start.txt) -->
+#define IMG_SRC ../../markdown_source/markdown/img
+
+
