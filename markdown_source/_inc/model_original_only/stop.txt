@@ -1,0 +1,2 @@
+<!-- File generated from pihw.com (_inc\\model_original_only\\stop.txt) -->
+#include "..\standard\stop.txt"

@@ -1,0 +1,7 @@
+#define WANT_MODEL_PLUS
+#define WANT_MODEL_ORG
+
+#define ALT_LINK
+#define FILE_SRC http://pihw.wordpress.com/lessons/pi-stop-workshops
+#define FILE_SRC_EXT html
+#define IMG_SRC https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img
