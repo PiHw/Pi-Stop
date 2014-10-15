@@ -1,1 +1,1 @@
-Redirected to [**Discover: The Pi-Stop**](markdown_source/markdown/Discover-PiStop.md)
+Redirected to [**Discover: The Pi-Stop**](markdown/Discover-PiStop.md)
