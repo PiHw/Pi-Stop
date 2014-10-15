@@ -1,0 +1,1 @@
+Redirected to [**Setup: Scratch GPIO**](markdown_source/markdown/Setup-ScratchGPIO.md)
