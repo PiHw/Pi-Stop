@@ -1,0 +1,1 @@
+Redirected to [**Explore and Challenge Scratch GPIO: Pi-Stop Simon Memory Game**](markdown/ExploreScratchGPIO-PiStopMemoryGame.md)

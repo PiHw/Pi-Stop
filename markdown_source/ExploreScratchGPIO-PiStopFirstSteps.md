@@ -1,0 +1,1 @@
+Redirected to [**Explore and Challenge Scratch GPIO: Pi-Stop First Steps**](markdown/ExploreScratchGPIO-PiStopFirstSteps.md)

@@ -1,0 +1,1 @@
+These .md files are here to provide a place for old links to be redirected to the new location of the markdown files.  Please update your links to link to the new file location. 
