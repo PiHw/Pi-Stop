@@ -42,7 +42,7 @@ We shall take our first steps using Scratch GPIO to control the Pi-Stop's LEDs.
 ###Getting Started###
 The Pi-Stop should be connected to the Raspberry Pi in **Location A** (LEDs facing outwards), as follows:
 <!---#ifdef WANT_MODEL_PLUS--->
-**Location A for Model A+ or B+ (purchased after July 2014)**
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="img/PiStopLocationPlusA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
 <!---#endif--->
@@ -60,17 +60,17 @@ If you are still in the Raspberry Pi terminal, start the desktop environment usi
 
 Otherwise, restart the desktop by logging out and back in again.
 
-Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 5 Plus*):
-<img src="img/ScratchGPIOIconOnly.png" height=100/>
+Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 7 Plus*):
+<img src="img/ScratchGPIO7IconOnly.png" height=100/>
 
 
-**Scratch GPIO 5** is the standard version, while **Scratch GPIO 5 plus** provides additional support for several add-on boards.
+**Scratch GPIO 7** is the standard version, while **Scratch GPIO 7 plus** provides additional support for several add-on boards.
 <img src="img/space.png" height=30/>
 > <img style="float:left" src="img/note.png" height=40/>
 > **NOTE:** If you are using **X-Forwarding**, you can run Scratch GPIO with the following commands:
 >
     sudo cp ~/.Xauthority ~root/
-    sudo ~/scratchgpio5/./scratchgpio5.sh
+    sudo /opt/scratchgpio7/./scratchgpio7.sh
 
 ###The Scratch Interface###
 When Scratch GPIO starts it will look similar to the following:
@@ -83,7 +83,7 @@ The first thing you will find is a small window with the message `"Remote sensor
 
 You can press **OK** to clear this message.
 
-><img style="float:left" src="img/warn.png" height=40/> **WARNING:** If for some reason this doesn't show, check you clicked on **ScratchGPIO 5** rather than the normal **Scratch** icon.
+><img style="float:left" src="img/warn.png" height=40/> **WARNING:** If for some reason this doesn't show, check you clicked on **ScratchGPIO 7** rather than the normal **Scratch** icon.
 >
 >Otherwise, try **rebooting** (terminal command `sudo reboot`) just in case something you ran previously hasn't released the GPIO for example.  Finally, you can try re-installing Scratch GPIO by re-running the install scripts.
 

@@ -46,7 +46,7 @@ In this guide we make use of Scratch GPIO produce a standard traffic light seque
 ###Getting Started###
 The Pi-Stop should be connected to the Raspberry Pi in Location A, as follows:
 <!---#ifdef WANT_MODEL_PLUS--->
-**Location A for Model A+ or B+ (purchased after July 2014)**
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="img/PiStopLocationPlusA.png" height=300 />
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
@@ -61,17 +61,17 @@ If you are still in the Raspberry Pi terminal, start the desktop environment usi
 `startx
 `
 
-Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 5 Plus*):
-<img src="img/ScratchGPIOIconOnly.png" height=100/>
+Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 7 Plus*):
+<img src="img/ScratchGPIO7IconOnly.png" height=100/>
 
 
-**Scratch GPIO 5** is the standard version, while **Scratch GPIO 5 plus** provides additional support for several add-on boards.
+**Scratch GPIO 7** is the standard version, while **Scratch GPIO 7 plus** provides additional support for several add-on boards.
 
 > <img style="float:left" src="img/note.png" height=40/>
 > **NOTE:** If you are using **X-Forwarding**, you can run Scratch GPIO with the following commands:
 >
     sudo cp ~/.Xauthority ~root/
-    sudo ~/scratchgpio5/./scratchgpio5.sh
+    sudo /opt/scratchgpio7/./scratchgpio7.sh
 
 
 ###Get ready###
