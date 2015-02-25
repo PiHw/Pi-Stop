@@ -44,7 +44,7 @@ We will refer to the main 40 pin (26 pin on older models) header as the GPIO Hea
 There are several conventions for referencing the GPIO pins, however where possible we will use the pin's physical position (where Pin 1 is located nearest the SD-Card and DSI connector and Pin 40 (pin 26 on older models) is near the USB port and the edge of the board).
 
 <!---#ifdef WANT_MODEL_PLUS--->
-**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
+**For Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="img/RPiGPIOImagePlus.png" height=300 />
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
