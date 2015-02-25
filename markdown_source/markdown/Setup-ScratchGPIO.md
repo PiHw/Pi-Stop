@@ -157,6 +157,9 @@ The **Pi-Stop** should be connected to your Raspberry Pi GPIO header P1 using **
 **Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="img/PiStopLocationPlusA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
+> <img style="float:left" src="img/idea.png" height=40/>
+> **TIP:** To find **Pi-Stop Location A** on the 40 pin GPIO header, ensure you count 7 pins directly up from the bottom (that will leave 7 unconnected pins below the Pi-Stop).
+> Your Pi-Stop should be facing towards the nearest side of the Raspberry Pi and inserted on the row of pins nearest the edge.  If unsure then please ask!
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
 **Location A for Model A or B (purchased before July 2014)**
