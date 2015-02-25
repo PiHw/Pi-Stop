@@ -36,6 +36,14 @@ On the surface Scratch is deceptively simple, however do not let that fool you, 
 [http://cymplecy.wordpress.com/scratchgpio/](http://cymplecy.wordpress.com/scratchgpio/)
 
 ##How to install Scratch GPIO##
+###Start the desktop and open a terminal window###
+When you power up your Raspberry Pi, if it loads directly to the Raspberry Pi terminal, start the desktop environment using:
+
+`startx
+`
+
+Next open a terminal window by clicking on the terminal icon, or selecting **Terminal** from the **Accessories** section of the application **Menu** (located by default on the top left of the desktop).
+
 ###Obtain Scratch GPIO###
 Scratch GPIO is installed from a single setup file.
 
@@ -64,9 +72,9 @@ It is as simple as that, Scratch GPIO is installed on your system!
 Before we continue, you will need to **shutdown and power off** the Raspberry Pi so we can fit our hardware onto the GPIO pins.
 ><img style="float:left" src="img/warn.png" height=40/> **WARNING:** It is advisable to only connect and disconnect hardware to the GPIO pins when the Raspberry Pi is switched off to avoid damage.
 
-If your Raspberry Pi automatically starts in the desktop, click on the red power button in the bottom right corner and select **Shutdown** from the menu which comes up.  Or open a terminal window (by clicking on the Terminal icon or selecting from the menu).
+If your Raspberry Pi automatically starts in the desktop, select **Shutdown** from the application **Menu* in the top left corner and select **Shutdown** from the menu which comes up.  Or open a terminal window (by clicking on the Terminal icon or selecting from the menu).
 
-From the terminal type the command `sudo shutdown -h now`.
+From the terminal type the command `sudo halt`.
 
 When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (for over 5 seconds) you can safely disconnect the power.
 <img src="img/space.png" height=30/>
