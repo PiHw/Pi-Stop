@@ -109,9 +109,9 @@ When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (
 <img src="img/space.png" height=40/>
 
 > <img style="float:left" src="img/idea.png" height=40/>
-> **TIP 3:** If you have the files on a USB device, you can access the `install_scratchgpio7.sh` as follows:
+> **TIP 3:** If you have the file on a USB device, you can access the `install_scratchgpio7.sh` as follows:
 > 
-> Insert the USB device or USB SD-Card reader with the Workshop SD-Card inside, into one of the Raspberry Pi's SD-Card.
+> Insert the USB device (or USB SD-Card reader with the Workshop SD-Card inside), into one of the Raspberry Pi's USB ports.
 > 
 > From the terminal, use the following command:
 > 
@@ -119,11 +119,11 @@ When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (
 > 
 > This will list all the drives and partitions detected on the system (if it is not detected as **sda1** you can adjust the commands as needed).
 >
-> `mkdir ~/sdcard`
+> `mkdir ~/usbdrive`
 > 
-> `sudo mount –t vfat /dev/sda1 ~/sdcard`
+> `sudo mount –t vfat /dev/sda1 ~/usbdrive`
 >
-> `sudo bash ~/sdcard/install_scratchgpio7.sh`
+> `sudo bash ~/usbdrive/install_scratchgpio7.sh`
 
 <!---#ifdef WANT_MODEL_PLUS--->
 ><img style="float:left" src="img/warn.png" height=40/> **WARNING:** To use the Pi-Stop on the latest Raspberry Pi models you will need to ensure you have the latest version of the RPi.GPIO library.  Check the version with the following command:
@@ -131,6 +131,11 @@ When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (
 > You should have at least RPi.GPIO version 0.5.11 or above installed, if not run the following command to update it (with your Raspberry Pi connected to the internet):
 > `sudo apt-get update`
 > `sudo apt-get install python-rpi.gpio python3-rpi.gpio`
+> If you still have problems running Scratch GPIO you may need to fully update your system.  This can take some time and it is recommended you backup any important files before doing so.
+> Use the following commands to update your system:
+> `sudo apt-get update`
+> `sudo apt-get upgrade`
+> `sudo apt-get dist-upgrade`
 <!---#endif--->
 -------------------
 
