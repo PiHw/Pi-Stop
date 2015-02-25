@@ -131,8 +131,6 @@ When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (
 > You should have at least RPi.GPIO version 0.5.11 or above installed, if not run the following command to update it (with your Raspberry Pi connected to the internet):
 > `sudo apt-get update`
 > `sudo apt-get install python-rpi.gpio python3-rpi.gpio`
->
-> **UPDATE: Scratch GPIO 7 does not currently support GPIO pins above 26 (so Pi-Stop locations A+ and B+ can't be used yet), but support will be added in the future.**
 <!---#endif--->
 -------------------
 
