@@ -45,6 +45,10 @@ The Pi-Stop should be connected to the Raspberry Pi in **Location A** (LEDs faci
 **Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="img/PiStopLocationPlusA.png" height=300 />
 <img src="img/pi-stopsmbl.png" height=300 />
+> <img style="float:left" src="img/idea.png" height=40/>
+> **TIP:** To find **Pi-Stop Location A** on the 40 pin GPIO header, ensure you count 7 pins directly up from the bottom (that will leave 7 unconnected pins below the Pi-Stop).
+> Your Pi-Stop should be facing towards the nearest side of the Raspberry Pi and inserted on the row of pins nearest the edge.
+
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
 **Location A for Model A or B (purchased before July 2014)**
@@ -57,8 +61,6 @@ If you are still in the Raspberry Pi terminal, start the desktop environment usi
 
 `startx
 `
-
-Otherwise, restart the desktop by logging out and back in again.
 
 Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 7 Plus*):
 <img src="img/ScratchGPIO7IconOnly.png" height=100/>
