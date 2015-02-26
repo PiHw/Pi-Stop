@@ -47,11 +47,14 @@ In this guide we make use of Scratch GPIO produce a standard traffic light seque
 The Pi-Stop should be connected to the Raspberry Pi in Location A, as follows:
 <!---#ifdef WANT_MODEL_PLUS--->
 **Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
-<img src="img/PiStopLocationPlusA.png" height=300 />
+<img src="img/PiStopLocationPlusA.png" height=320 />
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
+<p>
+<img src="img/space.png" height=100/>
+<p>
 **Location A for Model A or B (purchased before July 2014)**
-<img src="img/PiStopLocationA.png" height=300 />
+<img src="img/PiStopLocationA.png" height=280 />
 <!---#endif--->
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
@@ -62,7 +65,7 @@ If you are still in the Raspberry Pi terminal, start the desktop environment usi
 `
 
 Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 7 Plus*):
-<img src="img/ScratchGPIO7IconOnly.png" height=100/>
+<img src="img/ScratchGPIO7IconOnly.png" height=70/>
 
 
 **Scratch GPIO 7** is the standard version, while **Scratch GPIO 7 plus** provides additional support for several add-on boards.
@@ -103,11 +106,11 @@ We will use one or more of the following:
 
 Before we go any further we should take some time to work out what the correct sequence of lights a traffic light should show.  This way we can design our program and then test to see if it behaves as we wanted.
 ####The STOP Sequence####
-<img src="img/quest.png" height=50/>**QUESTION:** When a traffic light is ***GREEN (GO)*** and starts to change, what lights will be lit as it changes to ***STOP*** the traffic?
+<img style="float:left" src="img/quest.png" height=50/>**QUESTION:** When a traffic light is ***GREEN (GO)*** and starts to change, what lights will be lit as it changes to ***STOP*** the traffic?
  
-<img src="img/pi-StopG.png" height=250/>
-<img src="img/pi-StopBlank.png" height=250/>
-<img src="img/pi-StopBlank.png" height=250/>
+<img src="img/pi-StopG.png" height=240/>
+<img src="img/pi-StopBlank.png" height=240/>
+<img src="img/pi-StopBlank.png" height=240/>
 <img src="img/broadcastblockpin.png" height=120/>
 <img src="img/broadcastblock.png" height=120/>
 
@@ -118,12 +121,12 @@ Before we go any further we should take some time to work out what the correct s
 
 
 ####The GO Sequence####
-<img src="img/quest.png" height=50/>**QUESTION:** When a traffic light is ***RED (STOP)*** and changes to ***GO***, what is the normal sequence of lights?
+<img style="float:left" src="img/quest.png" height=50/>**QUESTION:** When a traffic light is ***RED (STOP)*** and changes to ***GO***, what is the normal sequence of lights?
 
 Again, fill in the required **broadcast** commands.
-<img src="img/pi-StopR.png" height=250/>
-<img src="img/pi-StopBlank.png" height=250/>
-<img src="img/pi-StopBlank.png" height=250/>
+<img src="img/pi-StopR.png" height=240/>
+<img src="img/pi-StopBlank.png" height=240/>
+<img src="img/pi-StopBlank.png" height=240/>
 <img src="img/broadcastblock.png" height=120/>
 <img src="img/broadcastblock.png" height=120/>
 <p>
@@ -135,33 +138,29 @@ Again, fill in the required **broadcast** commands.
 
 *You can now create each of the **broadcast** blocks in Scratch and click on them to test each step.*
 
-<img src="img/space.png" height=60/>
-
 ###Putting the blocks together###
 We will now create a new **broadcast** group of blocks to recreate the required LED sequence.
+<p>
+<img src="img/space.png" height=30/>
 ####The broadcast STOP Block####
 Start the group with a **when I receive** block called **STOP**:
-<img src="img/broadcastSTOP.png" height=60/>
+<img src="img/broadcastSTOP.png" height=50/>
 Add our first light change:
-<img src="img/broadcastblock.png" height=100/>
-<p>
-<img src="img/space.png" height=0/>
+<img src="img/broadcastblock.png" height=80/>
+
 Add a wait block (so the lights do not change instantly):
-<img src="img/wait1sec.png" height=40/>
-<p>
-<img src="img/space.png" height=0/>
+<img src="img/wait1sec.png" height=30/>
+
 Add our second light change:
-<img src="img/broadcastblock.png" height=100/>
+<img src="img/broadcastblock.png" height=80/>
 ####Broadcast GO Block####
 Simply do the same with the other light changes, but call this **when I receive** block **GO**:
-<img src="img/broadcastGO.png" height=60/>
+<img src="img/broadcastGO.png" height=50/>
 
 ***Excellent!*** *Now you can test these blocks by clicking on them directly and see if we have our correct traffic light sequences!*
-<img src="img/space.png" height=30/>
-<p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop STOP and GO sequences"**
-<img src="img/space.png" height=30/>
 <p>
+<img src="img/space.png" height=1/>
 ##The Final Program - Changing Lights##
 At the moment our program will not do anything unless we click on it.
 
@@ -174,34 +173,33 @@ Just like we did in the previous guide ([**Explore and Challenge Scratch GPIO: P
 <!---#endif--->
 
 
-<img src="img/foreverblock.png" height=60/>
+<img src="img/foreverblock.png" height=55/>
 
 We will also add a **when green flag clicked** block to kick off our sequence (allowing you to use the small flag in the top right to **start**, and the red circle to **stop**. 
-<img src="img/whenflagclickedblock.png" height=60/>
+<img src="img/whenflagclickedblock.png" height=50/>
 
 For our traffic lights we want them to start by changing to **GO** (by broadcasting "GO") then wait for some time (for example 10 seconds) and then change to **STOP** (by broadcasting "STOP").
 
 Putting the blocks together we end up with:
-<img src="img/04-trafficloop.png" height=180/>
+<img src="img/04-trafficloop.png" height=150/>
 
 When you run the program (by clicking on the **Green Flag**) you will see each part is highlighted with a white outline while it runs through the **forever** loop and runs each of the **broadcast** group blocks **GO** and **STOP**.
-<img src="img/space.png" height=30/>
+<img src="img/space.png" height=1/>
 <p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I've created the Pi-Stop the full Traffic Light Sequence"**
-<img src="img/space.png" height=30/>
+<img src="img/space.png" height=1/>
 <p>
 Remember to save your completed work by selecting **File** and **Save As...** from the menu.
 
-<img src="img/space.png" height=30/>
 
 ###Behold the Changing Lights!###
-<img src="img/pi-StopR.png" width=50/>
-<img src="img/pi-StopRY.png" width=50/>
-<img src="img/pi-StopG.png" width=50/>
+<img src="img/pi-StopR.png" width=40/>
+<img src="img/pi-StopRY.png" width=40/>
+<img src="img/pi-StopG.png" width=40/>
 <img src="img/space.png" height=30/>
-<img src="img/pi-StopG.png" width=50/>
-<img src="img/pi-StopY.png" width=50/>
-<img src="img/pi-StopR.png" width=50/>
+<img src="img/pi-StopG.png" width=40/>
+<img src="img/pi-StopY.png" width=40/>
+<img src="img/pi-StopR.png" width=40/>
 
 ##Try your own projects...##
 Now you have your very own traffic light you can use in your own projects!
@@ -233,10 +231,9 @@ Use the Pi-Stop to start your **Scalextric** (TM) or **Hot Wheels** (TM) races, 
 *Hint: See the next guide ([**Explore and Challenge Scratch GPIO: Pi-Stop Reaction Game**](ExploreScratchGPIO-PiStopReactionGame.md)) which makes use of random delays.*
 <!---#endif--->
 
-<p>
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"Extended Task: Created a racing start light control"**
 <p>
-<img src="img/space.png" height=20/>
+<img src="img/space.png" height=1/>
 
 
 ###Control multiple Traffic Lights###
@@ -245,12 +242,14 @@ Use the Pi-Stop to start your **Scalextric** (TM) or **Hot Wheels** (TM) races, 
 <p>
 <img style="float:left" src="img/quest.png" height=50/>**QUESTION:** Can you extend the traffic light sequence to use a second **Pi-Stop** fitted in **Location B** so you can control traffic at a junction?
 <!---#ifdef WANT_MODEL_PLUS--->
-**Location B for Model A+ or B+ (purchased after July 2014)**
-<img src="img/PiStopLocationPlusB.png" height=300 />
+<img src="img/space.png" height=60/>
+<p>
+**Location B for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
+<img src="img/PiStopLocationPlusB.png" height=280 />
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
 **Location B for Model A or B (purchased before July 2014)**
-<img src="img/PiStopLocationB.png" height=300 />
+<img src="img/PiStopLocationB.png" height=280 />
 <!---#endif--->
 
 <img src="img/space.png" height=30/>

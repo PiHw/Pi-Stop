@@ -22,9 +22,11 @@
 #Explore and Challenge:#
 ##The Pi-Stop Simon Memory Game##
 <img src="img/LogoDesignNormal.png" height=100/>
-> <img src="img/note.png" height=40/>
+> <img style="float:left" src="img/note.png" height=40/>
+> 
 > **SEE ALSO:**
->  
+> 
+> <img src="img/space.png" height=1/> 
 <!---#ifdef ALT_LINK--->
 <!---
 > <a href="FILE_SRC/Setup-ScratchGPIO.FILE_SRC_EXT">**Setup: Scratch GPIO**</a>: For instructions on how to setup Scratch GPIO with Pi-Stop *(which is needed for this guide)*.
@@ -64,7 +66,7 @@ As in previous guides, the Pi-Stop should be connected to the Raspberry Pi in **
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
 Once you have started the Raspberry Pi desktop, open Scratch using the Scratch GPIO icon:
-<img src="img/ScratchGPIO7IconOnly.png" height=100/>
+<img src="img/ScratchGPIO7IconOnly.png" height=80/>
 
 ##Simon Memory Game##
 The following game is similar to a well known game from the 1980's which creates an ever increasing sequence of lights which the player has to repeat by pressing the lights in turn.
@@ -126,7 +128,7 @@ The **PLAY broadcast** group block will go through each item in the **GameList**
 > <img src="img/waitfortest.png"/>
 > Add a **wait for 1 secs** block inside the loop (after the **change Item by 1** block). 
 > 
-
+<img src="img/space.png" height=70/> 
 ###Test our program###
 You can now test the program by clicking on the *Green Flag* and see what the program does.
 

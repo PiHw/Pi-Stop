@@ -13,7 +13,6 @@
 <!-- -----------------------------------------------------
 -->
 
-
 <img src="img/pihwlogotm.png" width=180 />
 
 ----------
@@ -34,6 +33,8 @@ On the surface Scratch is deceptively simple, however do not let that fool you, 
 **Scratch GPIO** was created by **Simon Walters (@cymplecy)** to allow Scratch to interact with physical hardware.  Full details of Scratch GPIO is available on his website:
 
 [http://cymplecy.wordpress.com/scratchgpio/](http://cymplecy.wordpress.com/scratchgpio/)
+
+<img src="img/space.png" height=5/>
 
 ##How to install Scratch GPIO##
 ###Start the desktop and open a terminal window###
@@ -77,39 +78,33 @@ If your Raspberry Pi automatically starts in the desktop, select **Shutdown** fr
 From the terminal type the command `sudo halt`.
 
 When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (for over 5 seconds) you can safely disconnect the power.
-<img src="img/space.png" height=30/>
-<p>
 
 <img style="float:left" src="img/check.png" height=50/> **WORKSHEET:** Put a big tick in the checkbox marked **"I have installed Scratch GPIO!"** 
 
-<img src="img/space.png" height=30/>
 -----------
-<p>
 > <img style="float:left" src="img/idea.png" height=40/>
 > **TIP 1:** If you have a different user name to the default pi user, use the following command:
 
 >    `sudo bash install_scratchgpio7.sh yourid`
-<img src="img/space.png" height=30/>
-<p>
 
+--------------
 > <img style="float:left" src="img/idea.png" height=40/>
 > **TIP 2:** If you have copied the file to your Raspberry Pi SD-Card you can access it as shown below (depending if you have a NOOBS setup or not).
 
 >When using NOOBS, only the RECOVERY partition of the SD-Card will be visible on many computers, so you can copy the file there.  To access this partition on the Raspberry Pi it will need to be mounted before you can run the script:
 >
->`mkdir ~/recovery`
->
->`sudo mount –t vfat /dev/mmcblk0p1 ~/recovery`
->
->`sudo bash ~/recovery/install_scratchgpio7.sh`
+    mkdir ~/recovery
+    sudo mount –t vfat /dev/mmcblk0p1 ~/recovery
+    sudo bash ~/recovery/install_scratchgpio7.sh
 >
 >If using a basic imaged system (non-NOOBS), the file can be run directly from the BOOT partition:
 >
 >`sudo bash /dev/boot/install_scratchgpio7.sh`
-<img src="img/space.png" height=40/>
+
+------------------
 
 > <img style="float:left" src="img/idea.png" height=40/>
-> **TIP 3:** If you have the file on a USB device, you can access the `install_scratchgpio7.sh` as follows:
+> **TIP 3:** If you have the file on a USB device, you can access the `install_scratchgpio7.sh` file as follows:
 > 
 > Insert the USB device (or USB SD-Card reader with the Workshop SD-Card inside), into one of the Raspberry Pi's USB ports.
 > 
@@ -119,23 +114,29 @@ When the green activity **(ACT) LED** on the Raspberry Pi has stopped flashing (
 > 
 > This will list all the drives and partitions detected on the system (if it is not detected as **sda1** you can adjust the commands as needed).
 >
-> `mkdir ~/usbdrive`
-> 
-> `sudo mount –t vfat /dev/sda1 ~/usbdrive`
->
-> `sudo bash ~/usbdrive/install_scratchgpio7.sh`
+    mkdir ~/usbdrive
+    sudo mount –t vfat /dev/sda1 ~/usbdrive
+    sudo bash ~/usbdrive/install_scratchgpio7.sh
 
 <!---#ifdef WANT_MODEL_PLUS--->
+-------------
 ><img style="float:left" src="img/warn.png" height=40/> **WARNING:** To use the Pi-Stop on the latest Raspberry Pi models you will need to ensure you have the latest version of the RPi.GPIO library.  Check the version with the following command:
-> `sudo apt-cache showpkg python-rpi.gpio`
+>
+    sudo apt-cache showpkg python-rpi.gpio
+> 
 > You should have at least RPi.GPIO version 0.5.11 or above installed, if not run the following command to update it (with your Raspberry Pi connected to the internet):
-> `sudo apt-get update`
-> `sudo apt-get install python-rpi.gpio python3-rpi.gpio`
+> 
+    sudo apt-get update
+    sudo apt-get install python-rpi.gpio python3-rpi.gpio
+> 
 > If you still have problems running Scratch GPIO you may need to fully update your system.  This can take some time and it is recommended you backup any important files before doing so.
+> 
 > Use the following commands to update your system:
-> `sudo apt-get update`
-> `sudo apt-get upgrade`
-> `sudo apt-get dist-upgrade`
+> 
+    sudo apt-get update
+    sudo apt-get upgrade
+    sudo apt-get dist-upgrade
+
 <!---#endif--->
 -------------------
 
@@ -150,7 +151,7 @@ In addition to the normal Scratch blocks as shown above, Scratch is able to *sho
    
 Scratch GPIO is a slightly modified version of standard Scratch which has an additional helper (*scratch_gpio_handler.py*) running in the background.  The GPIO helper listens for any **broadcast** massages which it understands and controls the connected hardware accordingly.
 
-<img src="img/howwork13.png" width=500/>
+<img src="img/howwork13.png" width=450/>
 
 ##Install our hardware##
 First before we plug in our hardware, **shut-down** the Raspberry Pi if you haven't done so already (see above).
@@ -162,7 +163,10 @@ The **Pi-Stop** should be connected to your Raspberry Pi GPIO header P1 using **
 <img src="img/pi-stopsmbl.png" height=300 />
 > <img style="float:left" src="img/idea.png" height=40/>
 > **TIP:** To find **Pi-Stop Location A** on the 40 pin GPIO header, ensure you count 7 pins directly up from the bottom (that will leave 7 unconnected pins below the Pi-Stop).
-> Your Pi-Stop should be facing towards the nearest side of the Raspberry Pi and inserted on the row of pins nearest the edge.  If unsure then please ask!
+> 
+> Your Pi-Stop should be facing towards the nearest side of the Raspberry Pi and inserted on the row of pins nearest the edge.
+> 
+> If you are unsure then please ask!
 <!---#endif--->
 <!---#ifdef WANT_MODEL_ORG--->
 **Location A for Model A or B (purchased before July 2014)**
