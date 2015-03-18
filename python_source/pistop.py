@@ -10,7 +10,7 @@
 #
 import RPi.GPIO as GPIO
 
-R,Y,G=0,1,2
+R,Y,G=2,1,0
 OFF,ON=0,1
 all=(R,Y,G)
 
