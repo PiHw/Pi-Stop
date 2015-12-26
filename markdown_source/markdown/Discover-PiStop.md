@@ -139,6 +139,7 @@ When the Pi-Stop is connected and the Raspberry Pi is powered up you may notice 
 - **Location B** - All LEDs are OFF
 - **Location C** - The Green LED is ON
 - **Location D** - The Red and Yellow LEDs are ON
+
 <!---#endif--->
 
 ><img style="float:left" src="img/note.png" height=40/>
