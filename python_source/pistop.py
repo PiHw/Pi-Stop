@@ -10,14 +10,14 @@
 #
 import RPi.GPIO as GPIO
 
-R,Y,G=2,1,0
+G,Y,R=0,1,2
 OFF,ON=0,1
 all=(R,Y,G)
 
-#Hardware Setup
+#Hardware Setup [G,Y,R]
 location={"A":[22,24,26],
           "B":[23,21,19],
-          "C":[12,10,8],
+          "C":[8,10,12],
           "D":[7,5,3]}
 if GPIO.RPI_REVISION >= 3:
   locPlus={"A+":[36,38,40],
