@@ -7,28 +7,6 @@ import time
 WAIT=1
 DURATION=10
 
-def run(pistop):
-   pistop.output(PS.all,PS.OFF)
-   time.sleep(5)
-   pistop.output(PS.R,PS.ON)
-   pistop.output((PS.Y,PS.G),PS.OFF)
-   time.sleep(1)
-   while(True):
-      #Go
-      pistop.output((PS.R,PS.Y),PS.ON)
-      pistop.output(PS.G,PS.OFF)
-      time.sleep(WAIT)
-      pistop.output(PS.G,PS.ON)
-      pistop.output((PS.R,PS.Y),PS.OFF)
-      time.sleep(DURATION)
-      #Stop
-      pistop.output(PS.Y,PS.ON)
-      pistop.output((PS.R,PS.G),PS.OFF)
-      time.sleep(WAIT)
-      pistop.output(PS.R,PS.ON)
-      pistop.output((PS.Y,PS.G),PS.OFF)
-      time.sleep(DURATION)
-
 def go(pistop):
    #Go
    pistop.output((PS.R,PS.Y),PS.ON)
@@ -53,7 +31,7 @@ if __name__ == '__main__':
         PS.PiStop("D") as myPiStopD,\
         PS.PiStop("A+") as myPiStopAp,\
         PS.PiStop("B+") as myPiStopBp:
-      while(1):
+      for i in range(5):
          #Stop: Lights D, A and B+
          stop(myPiStopD)
          stop(myPiStopA)
