@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# trafficlights.py
+# trafficlightsall.py
 #
 import pistop as PS
 import time
