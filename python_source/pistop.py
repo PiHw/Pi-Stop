@@ -10,9 +10,11 @@
 #
 import RPi.GPIO as GPIO
 
-G,Y,R=0,1,2
-OFF,ON=0,1
-all=(R,Y,G)
+#Defines (case independent)
+G,Y,R=g,y,r=0,1,2
+GREEN,YELLOW,RED=green,yellow,red=Green,Yellow,Red=G,Y,R
+OFF,ON=off,on=0,1
+ALL=all=(G,Y,R)
 
 #Hardware Setup [G,Y,R]
 location={"A":[22,24,26],
@@ -48,8 +50,8 @@ class PiStop():
       print("PiStop Location: %s" % loc)
       print(pinLocation[loc])
     
-  def showSetup(hwSetup=all):
-    if hwSetup==all:
+  def showSetup(hwSetup=ALL):
+    if hwSetup==ALL:
       for loc in location.keys():
         PiStop.printLoc(loc)
     else:
@@ -74,12 +76,12 @@ class PiStop():
       #Setup the wiring
       #GPIO.setwarnings(False)
       GPIO.setmode(GPIO.BOARD)
-      for pin in all:
+      for pin in ALL:
         GPIO.setup(self.hwSetup[pin],GPIO.OUT)
 
   def __enter__(self):
     if self.DEBUG:print("Enter Class")
-    self.output(all,OFF)
+    self.output(ALL,OFF)
     return self
 
   def __exit__(self,type,value,traceback):
@@ -94,27 +96,27 @@ class PiStop():
     if isinstance(pins,int):
       #Single integer - update pin
       pin=pins
-      if self.DEBUG:print("Pin:%s State:%s" %(self.hwSetup[pin],state))
+      if self.DEBUG:print("Pin:%s\tState:%s" %(self.hwSetup[pin],state))
       GPIO.output(self.hwSetup[pin],state)
     else:
       #is a list, cycle through "pins" list 
       for pin in pins:
-        if self.DEBUG:print("Pin:%s State:%s" %(self.hwSetup[pin],state))
+        if self.DEBUG:print("Pin:%s\tState:%s" %(self.hwSetup[pin],state))
         GPIO.output(self.hwSetup[pin],state)
 
 def testSequence(pistop):
     pistop.showSetup()
     time.sleep(5)
-    pistop.output(all,ON)
+    pistop.output(ALL,ON)
     time.sleep(5)
-    pistop.output(all,OFF)
+    pistop.output(ALL,OFF)
     pistop.output(G,ON)
     time.sleep(1)
     pistop.output(G,ON)
     time.sleep(1)
     pistop.output(R,ON) 
     time.sleep(1)
-    pistop.output(all,OFF)
+    pistop.output(ALL,OFF)
 
 
 if __name__ == '__main__':
