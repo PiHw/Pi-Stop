@@ -72,6 +72,47 @@ class display():
     if self.DEBUG:print("Pos: {}\tState: {}\tPiStop: {}\tLight: {}".format(pos,state,_pistop,_led))
     self.coord(_pistop,_led,state)
 
+  def demoSpin(self,cw=True,delay=WAIT/10):
+    '''Display Spinning LEDs Demo'''
+    spin=[[[0,0],[1,1],[2,2]], #/
+          [[0,1],[1,1],[2,1]], #-
+          [[0,2],[1,1],[2,0]], #\
+          [[1,0],[1,1],[1,2]], #|
+          [[0,0],[1,1],[2,2]], #/
+          [[0,1],[1,1],[2,1]], #-
+          [[0,2],[1,1],[2,0]], #\
+          [[1,0],[1,1],[1,2]]] #|
+    if cw==False:
+      spin.reverse()
+    SIDE=int(pistopdis.PISTOPS/2)
+    #Display each row
+    for row in spin:
+      for j in row:
+        pistopdis.coord(j[0],j[1],PS.ON)
+        pistopdis.coord(j[0]+SIDE,j[1],PS.ON)
+      time.sleep(delay)
+      for j in row:
+        pistopdis.coord(j[0],j[1],PS.OFF)
+        pistopdis.coord(j[0]+SIDE,j[1],PS.OFF)
+
+  def demoLine(self,vertical=False,delay=WAIT/10):
+    '''Display Lines LED Demo'''
+    if vertical:
+      #Vertical
+      for x in range(pistopdis.PISTOPS):
+        for y in range(pistopdis.LEDS):
+          pistopdis.coord(x,y,PS.ON)
+        time.sleep(delay)
+        for y in range(pistopdis.LEDS):
+          pistopdis.coord(x,y,PS.OFF)
+    else:
+      #Horizontal
+      for y in range(pistopdis.LEDS):
+        for x in range(pistopdis.PISTOPS):
+          pistopdis.coord(x,y,PS.ON)
+        time.sleep(delay)
+        for x in range(pistopdis.PISTOPS):
+          pistopdis.coord(x,y,PS.OFF)
 
 #Test module
 if __name__ == "__main__":
@@ -112,42 +153,17 @@ if __name__ == "__main__":
     #Vertical
     print("Vertical")
     for i in range(10):
-      for x in range(len(pistopdis.hw)):
-        for y in range(pistopdis.LEDS):
-          pistopdis.coord(x,y,PS.ON)
-        time.sleep(WAIT/20)
-        for y in range(pistopdis.LEDS):
-          pistopdis.coord(x,y,PS.OFF)
+      pistopdis.demoLine(vertical=True)
     #Horizontal
     print("Horizontal")
     for i in range(10):
-      for y in range(pistopdis.LEDS):
-        for x in range(pistopdis.PISTOPS):
-          pistopdis.coord(x,y,PS.ON)
-        time.sleep(WAIT/10)
-        for x in range(pistopdis.PISTOPS):
-          pistopdis.coord(x,y,PS.OFF)
+      pistopdis.demoLine(vertical=False)
 
     #Spin
-    print("Spin")
-    spin=[[[0,0],[1,1],[2,2]], #/
-          [[0,1],[1,1],[2,1]], #-
-          [[0,2],[1,1],[2,0]], #\
-          [[1,0],[1,1],[1,2]], #|
-          [[0,0],[1,1],[2,2]], #/
-          [[0,1],[1,1],[2,1]], #-
-          [[0,2],[1,1],[2,0]], #\
-          [[1,0],[1,1],[1,2]]] #|
-    SIDE=int(pistopdis.PISTOPS/2)
-    for i in range(100):
-      #Display each row
-      for row in spin:
-        for j in row:
-          pistopdis.coord(j[0],j[1],PS.ON)
-          pistopdis.coord(j[0]+SIDE,j[1],PS.ON)
-        time.sleep(WAIT/10)
-        for j in row:
-          pistopdis.coord(j[0],j[1],PS.OFF)
-          pistopdis.coord(j[0]+SIDE,j[1],PS.OFF)
-    
+    print("Spin CW")
+    for i in range(20):
+      pistopdis.demoSpin()
+    print("Spin Anti-CW")
+    for i in range(20):
+      pistopdis.demoSpin(cw=False)
         
