@@ -92,7 +92,7 @@ class PiStop():
     PiStop.showSetup(self.hwSetup)
 
   def output(self,pins,state):
-    #Determine if "pins" is a single interger or a list
+    #Determine if "pins" is a single integer or a list
     if isinstance(pins,int):
       #Single integer - update pin
       pin=pins
