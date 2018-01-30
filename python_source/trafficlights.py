@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # trafficlights.py
 #
-import pistop as PS
+import pistop.pistop as PS
 import time
 
 def run(pistop):

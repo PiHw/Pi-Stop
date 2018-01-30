@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # trafficlightsall.py
 #
-import pistop as PS
+import pistop.pistop as PS
 import time
 
 WAIT=1
