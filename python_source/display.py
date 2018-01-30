@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # display.py
 #
-import pistop as PS
+import pistop.pistop as PS
 import time
 
 WAIT=1
@@ -84,35 +84,35 @@ class display():
           [[1,0],[1,1],[1,2]]] #|
     if cw==False:
       spin.reverse()
-    SIDE=int(pistopdis.PISTOPS/2)
+    SIDE=int(self.PISTOPS/2)
     #Display each row
     for row in spin:
       for j in row:
-        pistopdis.coord(j[0],j[1],PS.ON)
-        pistopdis.coord(j[0]+SIDE,j[1],PS.ON)
+        self.coord(j[0],j[1],PS.ON)
+        self.coord(j[0]+SIDE,j[1],PS.ON)
       time.sleep(delay)
       for j in row:
-        pistopdis.coord(j[0],j[1],PS.OFF)
-        pistopdis.coord(j[0]+SIDE,j[1],PS.OFF)
+        self.coord(j[0],j[1],PS.OFF)
+        self.coord(j[0]+SIDE,j[1],PS.OFF)
 
   def demoLine(self,vertical=False,delay=WAIT/10):
     '''Display Lines LED Demo'''
     if vertical:
       #Vertical
-      for x in range(pistopdis.PISTOPS):
-        for y in range(pistopdis.LEDS):
-          pistopdis.coord(x,y,PS.ON)
+      for x in range(self.PISTOPS):
+        for y in range(self.LEDS):
+          self.coord(x,y,PS.ON)
         time.sleep(delay)
-        for y in range(pistopdis.LEDS):
-          pistopdis.coord(x,y,PS.OFF)
+        for y in range(self.LEDS):
+          self.coord(x,y,PS.OFF)
     else:
       #Horizontal
-      for y in range(pistopdis.LEDS):
-        for x in range(pistopdis.PISTOPS):
-          pistopdis.coord(x,y,PS.ON)
+      for y in range(self.LEDS):
+        for x in range(self.PISTOPS):
+          self.coord(x,y,PS.ON)
         time.sleep(delay)
-        for x in range(pistopdis.PISTOPS):
-          pistopdis.coord(x,y,PS.OFF)
+        for x in range(self.PISTOPS):
+          self.coord(x,y,PS.OFF)
 
 #Test module
 if __name__ == "__main__":
