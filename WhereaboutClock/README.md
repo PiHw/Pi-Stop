@@ -1,9 +1,9 @@
-<img src="markdown_source/img/pihwlogotm.png" width=180 />
+<img src="https://github.com/PiHw/Pi-Stop/raw/master/markdown_source/img/pihwlogotm.png" width=180 />
 
 ## [PiHardware.com](http://pihardware.com) presents... ##
 
 <p>
-<img src="markdown_source/markdown/img/LogoDesignNormal.png" width=400 />
+<img src="https://github.com/PiHw/Pi-Stop/raw/master/markdown_source/markdown/img/LogoDesignNormal.png" width=400 />
 
 # Whereabout Clock Workshop #
 
