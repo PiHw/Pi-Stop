@@ -28,8 +28,8 @@
 
 ##Using the Raspberry Pi GPIO##
 <img style="float:right" src="../../markdown_source/markdown/img/pi-stopsmbl.png" width=100/>
-The Raspberry Pi has a pin connector (P1) which includes 17 general purpose input output pins, which provide the ability to digital control of hardware or sensing of digital signals.  The pin header also contains several power (5V & 3.3V) and ground pins, as shown below.
-**For Model A+ or B+ (purchased after July 2014)**
+The Raspberry Pi has a pin connector (GPIO Header) which includes 26 (17 on older models) general purpose input output pins, which provide the ability to digital control of hardware or sensing of digital signals.  The pin header also contains several power (5V & 3.3V) and ground pins, as shown below.
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="../../markdown_source/markdown/img/RPiGPIOBasicBlackPlus.png" width=200 />
 > <img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:**  Pins 27 and 28 are reserved for HAT (the Raspberry Pi add-on Hardware-On-Top support).
@@ -38,10 +38,10 @@ The Raspberry Pi has a pin connector (P1) which includes 17 general purpose inpu
 > <img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:**  3.3V is often written as 3V3 in diagrams, this makes it clear that the value is definitely 3.3V rather than mistaking it for 33V by missing the decimal point ".". 
 
-We will refer to the main 26 pin header as P1.
-There are several conventions for referencing the GPIO pins, however where possible we will use the pin's physical position (where Pin 1 is located nearest the SD-Card and DSI connector and Pin 26 is near the analogue video connector and the edge of the board).
+We will refer to the main 40 pin (26 pin on older models) header as the GPIO Header (or sometimes as P1).
+There are several conventions for referencing the GPIO pins, however where possible we will use the pin's physical position (where Pin 1 is located nearest the SD-Card and DSI connector and Pin 40 (pin 26 on older models) is near the USB port and the edge of the board).
 
-**For Model A+ or B+ (purchased after July 2014)**
+**For Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="../../markdown_source/markdown/img/RPiGPIOImagePlus.png" height=300 />
 
 ><img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
@@ -62,10 +62,10 @@ The Pi-Stop includes three small resistors which will limit the current through 
    
 
 ##Fitting the Pi-Stop##
-We have selected standard locations for the Pi-Stop which are easy to locate and allow the unit to face outwards from the P1 header.
+We have selected standard locations for the Pi-Stop which are easy to locate and allow the unit to face outwards from the GPIO header.
 
 
-**For Model A+ or B+ (made after July 2014)**
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 This will allow you to control up to six Pi-Stops at the same time!
 
 <img src="../../markdown_source/markdown/img/GPIOConnections01Plus.png" height=200 />
@@ -73,19 +73,19 @@ This will allow you to control up to six Pi-Stops at the same time!
 <img  src="../../markdown_source/markdown/img/GPIOConnections02Plus.png" height=200 />
 ><img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:** 
->The Model A+ and B+ have two more supported locations **A+ and B+** compared to non "Plus" models.
+>The Models A+, B+ and the Raspberry Pi 2 have two more supported locations **A+ and B+** compared to non "Plus" models.
 
 
 **For Model A+ or B+ (purchased after July 2014)**
 
 ><img style="float:left" src="../../markdown_source/markdown/img/warn.png" height=40/>
-> **WARNING:** Extra care should be taken when using locations A, B C and D since they will not line up with the end of the P1 header.
+> **WARNING:** Extra care should be taken when using locations A, B C and D since they will not line up with the end of the GPIO header.
 
 The pin references for each location are shown below:
 <img src="../../markdown_source/markdown/img/PiStopLocationsPlus.png" width=700 />
 ><img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:** 
->The Model A+ and B+ have two more supported locations **A+ and B+** compared to non "Plus" models.
+>The Models A+, B+ and the Raspberry Pi 2 have two more supported locations **A+ and B+** compared to non "Plus" models.
 
 
 

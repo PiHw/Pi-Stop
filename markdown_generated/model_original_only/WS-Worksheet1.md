@@ -18,10 +18,10 @@
 -->
 
 
-<img src="../../markdown_source/markdown/img/pihwlogotm.png" width=225 />
+<img src="../../markdown_source/markdown/img/pihwlogotm.png" width=150 />
 ----------
-<p>
-<img src="../../markdown_source/markdown/img/space.png" height=20/>
+
+<img src="../../markdown_source/markdown/img/space.png" height=10/>
 <p>
 ##NAME:##
 -----------------
@@ -173,14 +173,17 @@ Challenge your memory and get the highest score!
 <img src="../../markdown_source/markdown/img/LogoDesignNormal.png" height=100/>
 I hope you enjoyed it.
 
-Remember the **Pi-Stop** will be available to buy from [www.4tronix.co.uk](http://www.4tronix.co.uk), and additional material and guides will be available from my website [www.PiHardware.com ](http://www.PiHardware.com )
+***You can buy your own Pi-Stop today, £3 each or two for £5.***
+
+The **Pi-Stop** are also available to buy from [www.4tronix.co.uk](http://www.4tronix.co.uk), and additional material and guides are available from my website [www.PiHardware.com ](http://www.PiHardware.com )
 
 
-> To reserve your own Pi-Stops, to enquire about **classroom/workshop packs**, or for Raspberry Pi help/advice:
+> For further Raspberry Pi help/advice or to enquire about **classroom/workshop packs**:
 
 > Contact  me (Tim Cox) at [pihw-orders@hotmail.co.uk](pihw-orders@hotmail.co.uk)
 
 My ***Raspberry Pi Python Cookbook for Python Programmers*** is available to buy:
+<img src="../../markdown_source/markdown/img/book.jpg" height=300/><p>
 
 **[http://goo.gl/dmVtsc](http://goo.gl/dmVtsc)**
 

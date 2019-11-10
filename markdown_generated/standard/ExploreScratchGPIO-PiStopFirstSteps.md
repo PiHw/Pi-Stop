@@ -26,7 +26,6 @@
 > <img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **SEE ALSO:**
 > 
-><img src="../../markdown_source/markdown/img/space.png" height=1/>
 > [**Discover: The Pi-Stop**](Discover-PiStop.md): For more information about Pi-Stop and how to use it.
 >  
 > [**Setup: Scratch GPIO**](Setup-ScratchGPIO.md): For instructions on how to setup Scratch GPIO with Pi-Stop *(which is needed for this guide)*.
@@ -34,9 +33,18 @@ We shall take our first steps using Scratch GPIO to control the Pi-Stop's LEDs.
 
 ###Getting Started###
 The Pi-Stop should be connected to the Raspberry Pi in **Location A** (LEDs facing outwards), as follows:
-**Location A for Model A+ or B+ (purchased after July 2014)**
-<img src="../../markdown_source/markdown/img/PiStopLocationPlusA.png" height=300 />
+
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
+<img src="../../markdown_source/markdown/img/PiStopLocationPlusA.png" height=320 />
 <img src="../../markdown_source/markdown/img/pi-stopsmbl.png" height=300 />
+> <img style="float:left" src="../../markdown_source/markdown/img/idea.png" height=40/>
+> **TIP:** To find **Pi-Stop Location A** on the 40 pin GPIO header, ensure you count 7 pins directly up from the bottom (that will leave 7 unconnected pins below the Pi-Stop).
+> 
+> Your Pi-Stop should be facing towards the nearest side of the Raspberry Pi and inserted on the row of pins nearest the edge.
+> 
+> If you are unsure then please ask!
+
+<img src="../../markdown_source/markdown/img/space.png" height=80/>
 **Location A for Model A or B (purchased before July 2014)**
 <img src="../../markdown_source/markdown/img/PiStopLocationA.png" height=300 />
 <img src="../../markdown_source/markdown/img/pi-stopsmbl.png" height=300 />
@@ -47,19 +55,17 @@ If you are still in the Raspberry Pi terminal, start the desktop environment usi
 `startx
 `
 
-Otherwise, restart the desktop by logging out and back in again.
-
-Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 5 Plus*):
-<img src="../../markdown_source/markdown/img/ScratchGPIOIconOnly.png" height=100/>
+Open Scratch GPIO from the desktop using the Scratch GPIO icon (we do not need the *ScratchGPIO 7 Plus*):
+<img src="../../markdown_source/markdown/img/ScratchGPIO7IconOnly.png" height=80/>
 
 
-**Scratch GPIO 5** is the standard version, while **Scratch GPIO 5 plus** provides additional support for several add-on boards.
-<img src="../../markdown_source/markdown/img/space.png" height=30/>
+**Scratch GPIO 7** is the standard version, while **Scratch GPIO 7 plus** provides additional support for several add-on boards.
+
 > <img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:** If you are using **X-Forwarding**, you can run Scratch GPIO with the following commands:
 >
     sudo cp ~/.Xauthority ~root/
-    sudo ~/scratchgpio5/./scratchgpio5.sh
+    sudo /opt/scratchgpio7/./scratchgpio7.sh
 
 ###The Scratch Interface###
 When Scratch GPIO starts it will look similar to the following:
@@ -72,7 +78,7 @@ The first thing you will find is a small window with the message `"Remote sensor
 
 You can press **OK** to clear this message.
 
-><img style="float:left" src="../../markdown_source/markdown/img/warn.png" height=40/> **WARNING:** If for some reason this doesn't show, check you clicked on **ScratchGPIO 5** rather than the normal **Scratch** icon.
+><img style="float:left" src="../../markdown_source/markdown/img/warn.png" height=40/> **WARNING:** If for some reason this doesn't show, check you clicked on **ScratchGPIO 7** rather than the normal **Scratch** icon.
 >
 >Otherwise, try **rebooting** (terminal command `sudo reboot`) just in case something you ran previously hasn't released the GPIO for example.  Finally, you can try re-installing Scratch GPIO by re-running the install scripts.
 
@@ -94,8 +100,7 @@ However since we are also making things happen in the **real world** by using th
 
 <img style="float:left" src="../../markdown_source/markdown/img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"I now know the different parts of Scatch"**
 
-*Lets now introduce the blocks we will use in our first example.*
-<img src="../../markdown_source/markdown/img/space.png" height=50/> 
+*Lets now introduce the blocks we will use in our first example.* 
 
 ###The broadcast block###
 The **broadcast** block, is located in the **control** section:
@@ -140,7 +145,7 @@ The final block in this section, is called a **forever** block, this will cause 
 When you test it this time, by clicking on it, you will find the flashing LED sequence continues to repeat over and over.
 
 <img style="float:left" src="../../markdown_source/markdown/img/check.png" height=50/> **WORKSHEET:** Tick the checkbox marked **"Scratch GPIO with a Flashing RED Light Completed!"**
-
+<img style="float:left" src="../../markdown_source/markdown/img/idea.png" height=40/>
 Remember to save your completed work by selecting **File** and **Save As...** from the menu.
 
 *Congratulations you have created your first Scratch GPIO program with the Pi-Stop!*

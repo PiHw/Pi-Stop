@@ -1,6 +1,6 @@
 
 #Making markdown more powerful#
-The whole oncept behind markdown is to keep things as simple as possible, however for the purpoes of our workshop materials we have found it a little limited.
+The whole concept behind markdown is to keep things as simple as possible, however for the purposes of our workshop materials we have found it a little limited.
 
 One particular limitation is the lack of ability to allow easy customisation of workshop materials to suit a specific setup (rather than a general one) or for example to be able to switch to using totally different hardware.
 

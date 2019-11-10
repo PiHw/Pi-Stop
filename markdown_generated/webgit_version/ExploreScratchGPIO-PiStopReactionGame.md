@@ -47,14 +47,14 @@ The program will also track your best score!
 
 ###Getting Started###
 As in previous guides, the Pi-Stop should be connected to the Raspberry Pi in Location A, as follows:
-**Location A for Model A+ or B+ (purchased after July 2014)**
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/PiStopLocationPlusA.png" height=300 />
 **Location A for Model A or B (purchased before July 2014)**
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/PiStopLocationA.png" height=300 />
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
 Once you have started the Raspberry Pi desktop, open Scratch using the Scratch GPIO icon:
-<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/ScratchGPIOIconOnly.png" height=100/>
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/img/ScratchGPIO7IconOnly.png" height=100/>
 
 
 

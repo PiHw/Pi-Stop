@@ -50,7 +50,7 @@ As in previous guides, the Pi-Stop should be connected to the Raspberry Pi in Lo
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
 Once you have started the Raspberry Pi desktop, open Scratch using the Scratch GPIO icon:
-<img src="../../markdown_source/markdown/img/ScratchGPIOIconOnly.png" height=100/>
+<img src="../../markdown_source/markdown/img/ScratchGPIO7IconOnly.png" height=100/>
 
 
 

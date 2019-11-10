@@ -28,7 +28,7 @@
 
 ##Using the Raspberry Pi GPIO##
 <img style="float:right" src="../../markdown_source/markdown/img/pi-stopsmbl.png" width=100/>
-The Raspberry Pi has a pin connector (P1) which includes 17 general purpose input output pins, which provide the ability to digital control of hardware or sensing of digital signals.  The pin header also contains several power (5V & 3.3V) and ground pins, as shown below.
+The Raspberry Pi has a pin connector (GPIO Header) which includes 26 (17 on older models) general purpose input output pins, which provide the ability to digital control of hardware or sensing of digital signals.  The pin header also contains several power (5V & 3.3V) and ground pins, as shown below.
 **For Model A or B (purchased before July 2014)**
 <img src="../../markdown_source/markdown/img/RPiGPIOBasicBlack.png" width=200 />
 
@@ -36,8 +36,8 @@ The Raspberry Pi has a pin connector (P1) which includes 17 general purpose inpu
 > <img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:**  3.3V is often written as 3V3 in diagrams, this makes it clear that the value is definitely 3.3V rather than mistaking it for 33V by missing the decimal point ".". 
 
-We will refer to the main 26 pin header as P1.
-There are several conventions for referencing the GPIO pins, however where possible we will use the pin's physical position (where Pin 1 is located nearest the SD-Card and DSI connector and Pin 26 is near the analogue video connector and the edge of the board).
+We will refer to the main 40 pin (26 pin on older models) header as the GPIO Header (or sometimes as P1).
+There are several conventions for referencing the GPIO pins, however where possible we will use the pin's physical position (where Pin 1 is located nearest the SD-Card and DSI connector and Pin 40 (pin 26 on older models) is near the USB port and the edge of the board).
 
 **For Model A or B (purchased before July 2014)**
 <img src="../../markdown_source/markdown/img/RPiGPIOImage.png" height=300 />
@@ -60,7 +60,7 @@ The Pi-Stop includes three small resistors which will limit the current through 
    
 
 ##Fitting the Pi-Stop##
-We have selected standard locations for the Pi-Stop which are easy to locate and allow the unit to face outwards from the P1 header.
+We have selected standard locations for the Pi-Stop which are easy to locate and allow the unit to face outwards from the GPIO header.
 
 
 **For Model A or B (purchased before July 2014)**
@@ -72,7 +72,7 @@ This also allows you to control up to four Pi-Stops at the same time!
 
 **For Model A or B (purchased before July 2014)**
 ><img src="../../markdown_source/markdown/img/warn.png" height=40/>
-> **WARNING:** Extra care should be taken when using locations D and C since they will not line up with the end of the P1 header.
+> **WARNING:** Extra care should be taken when using locations D and C since they will not line up with the end of the GPIO header.
 
 The pin references for each location are shown below:
 <img src="../../markdown_source/markdown/img/PiStopLocations.png" width=700 />
@@ -88,6 +88,7 @@ When the Pi-Stop is connected and the Raspberry Pi is powered up you may notice 
 - **Location B** - All LEDs are OFF
 - **Location C** - The Green LED is ON
 - **Location D** - The Red and Yellow LEDs are ON
+
 
 ><img style="float:left" src="../../markdown_source/markdown/img/note.png" height=40/>
 > **NOTE:** This may vary slightly if you have additional hardware enabled such as LCD screens etc. 

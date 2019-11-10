@@ -31,9 +31,11 @@ Each of the guides are also available in [PDF format](https://github.com/PiHw/Pi
 #Explore and Challenge:#
 ##The Pi-Stop Simon Memory Game##
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/LogoDesignNormal.png" height=100/>
-> <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/note.png" height=40/>
+> <img style="float:left" src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/note.png" height=40/>
+> 
 > **SEE ALSO:**
->  
+> 
+> <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/space.png" height=1/> 
 
 > <a href="http://pihw.wordpress.com/lessons/pi-stop-workshops/Setup-ScratchGPIO.html">**Setup: Scratch GPIO**</a>: For instructions on how to setup Scratch GPIO with Pi-Stop *(which is needed for this guide)*.
 >
@@ -54,14 +56,14 @@ I wonder if we can prove if Miller's **"Magic Number Seven"** is true or not?  W
 
 ###Getting Started###
 As in previous guides, the Pi-Stop should be connected to the Raspberry Pi in **Location A**, as follows:
-**Location A for Model A+ or B+ (purchased after July 2014)**
+**Location A for Model A+, B+ or Raspberry Pi 2 (purchased after July 2014)**
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/PiStopLocationPlusA.png" height=300 />
 **Location A for Model A or B (purchased before July 2014)**
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/PiStopLocationA.png" height=300 />
 With the Pi-Stop fitted in the correct position you can now power up your Raspberry Pi.
 
 Once you have started the Raspberry Pi desktop, open Scratch using the Scratch GPIO icon:
-<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/ScratchGPIOIconOnly.png" height=100/>
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/ScratchGPIO7IconOnly.png" height=80/>
 
 ##Simon Memory Game##
 The following game is similar to a well known game from the 1980's which creates an ever increasing sequence of lights which the player has to repeat by pressing the lights in turn.
@@ -118,6 +120,12 @@ The **PLAY broadcast** group block will go through each item in the **GameList**
 
 <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/06-memory04.png"/>
 
+> <img style="float:left" src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/idea.png" height=40/>
+> **TIP:** To test the above program we first need to add an extra block (which we can remove after).  The final program will wait for the user input before adding the next step in the sequence, but for this test we want to wait automatically.
+> <img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/waitfortest.png"/>
+> Add a **wait for 1 secs** block inside the loop (after the **change Item by 1** block). 
+> 
+<img src="https://raw.githubusercontent.com/PiHw/Pi-Stop/master/markdown_source/markdown/img/space.png" height=70/> 
 ###Test our program###
 You can now test the program by clicking on the *Green Flag* and see what the program does.
 
